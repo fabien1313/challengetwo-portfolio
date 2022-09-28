@@ -319,6 +319,35 @@ li a:hover {
     bottom: 675px; */
 }
 
+.avatar {
+    width:200px;
+    height:200px;
+    padding:100px;
+}
+
+#bigcardphoto {
+
+position:relative;
+
+
+
+}
+
+#bigcardphoto {
+    position:relative;
+    bottom: 100px;
+    left: 20px;
+    background-color: lightblue;
+    padding:10px;
+    
+}
+
+#bigcard:hover {
+    box-shadow: 0 0 20px lightblue;
+    box-shadow: inset 0 0 20px lightblue;
+    
+}
+
 .puzzel {
 
     /* width:111%;
@@ -328,6 +357,9 @@ li a:hover {
     /* left: 490px; */
     /* bottom: 800px;
     border: 5px solid lightblue; */
+    width:25%;
+    box-shadow: 0 0 20px darkblue;
+    box-shadow: inset 0 0 20px darkblue;
 
 
 }
@@ -348,6 +380,9 @@ li a:hover {
     width: 40%;
     margin: 10px;
     border: 5px solid lightblue;
+    width:25%;
+    box-shadow: 0 0 20px darkblue;
+    box-shadow: inset 0 0 20px darkblue;
     
 }
 
@@ -361,6 +396,7 @@ li a:hover {
 footer {
     display:flex;
     justify-content: space-between;
+    flex-wrap:wrap;
     
    
 }
@@ -369,6 +405,7 @@ footer {
 
 .contact-me {
     display:flex;
+    flex-wrap:wrap;
     /* justify-content: space-around; */
     list-style: none;
     margin-right: auto;
@@ -412,6 +449,44 @@ footer {
 .smallscards {
 
     width:25%;
+    box-shadow: 0 0 20px darkblue;
+    box-shadow: inset 0 0 20px darkblue;
+
+}
+
+#smallcard1 {
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#smallcard2 { 
+    
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+    background-color: lightblue;
+    padding: 10px;
+
+}
+
+#smallcard3 {
+
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#smallcard4 {
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+    background-color: lightblue;
+    padding: 10px;
 }
 
 
